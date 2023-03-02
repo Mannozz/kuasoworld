@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#-#",
+    "###"
+  ],
+  "key": {
+    "-": {
+      "item": "kuasoworld:toasted_kuaso"
+    },
+    "#": {
+      "item": "minecraft:minecraft:gold_ingot"
+    }
+  },
+  "output": {
+    "item": "kuasoworld:golden_kuaso",
+    "count": 1
+  }
+}

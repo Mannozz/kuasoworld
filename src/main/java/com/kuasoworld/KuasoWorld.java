@@ -1,5 +1,6 @@
 package com.kuasoworld;
 
+import com.kuasoworld.item.GoldenKuaso;
 import com.kuasoworld.item.RawKuaso;
 import com.kuasoworld.item.ToastedKuaso;
 import com.mojang.logging.LogUtils;
@@ -45,7 +46,7 @@ public class KuasoWorld {
 
     public static RegistryObject<Item> RAW_KUASO_ITEM = ITEMS.register("raw_kuaso", RawKuaso::new);
     public static RegistryObject<Item> TOASTED_KUASO_ITEM = ITEMS.register("toasted_kuaso", ToastedKuaso::new);
-
+    public static RegistryObject<Item> GOLDEN_KUASO_ITEM = ITEMS.register("golden_kuaso", GoldenKuaso::new);
     public KuasoWorld() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

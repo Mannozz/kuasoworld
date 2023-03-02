@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "kuasoworld:raw_kuaso"
+  },
+  "result": "kuasoworld:toasted_kuaso",
+  "experience": 0.35
+}

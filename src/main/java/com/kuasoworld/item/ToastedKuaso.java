@@ -16,14 +16,12 @@ public class ToastedKuaso extends Item {
     static {
         //效果类型|持续时间n*tick|效果等级(从0算起)
         supplier = () -> new MobEffectInstance(MobEffects.REGENERATION, 10 * 20, 0);
-        supplier2 = () -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 30 * 20, 2);
+        supplier2 = () -> new MobEffectInstance(MobEffects.ABSORPTION, 30 * 20, 3);
     }
 
-    //saturationMod营养值
-    //hunger饥饱值
-    //effect(效果,概率)
-    private static FoodProperties food = (new FoodProperties.Builder().saturationMod(1).
-            nutrition(3).
+
+    private static FoodProperties food = (new FoodProperties.Builder().saturationMod(6).
+            nutrition(10).
             effect(supplier, 1).
             effect(supplier2, 1).//这里追加effect叠加复数效果
                     build());
