@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "#-#",
-    "###"
+    "XXX",
+    "XYX",
+    "XXX"
   ],
   "key": {
-    "-": {
-      "item": "kuasoworld:toasted_kuaso"
+    "X": {
+      "item": "minecraft:gold_ingot"
     },
-    "#": {
-      "item": "minecraft:minecraft:gold_ingot"
+    "Y": {
+      "item": "kuasoworld:toasted_kuaso"
     }
   },
-  "output": {
+  "result": {
     "item": "kuasoworld:golden_kuaso",
     "count": 1
   }

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "kuasoworld:raw_kuaso"
+  },
+  "result": {
+    "item": "kuasoworld:toasted_kuaso"
+  },
+  "experience": 0.35
+}
