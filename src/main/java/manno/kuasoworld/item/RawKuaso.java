@@ -1,16 +1,13 @@
 package manno.kuasoworld.item;
 
-import net.minecraft.client.renderer.EffectInstance;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.food.Foods;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.alchemy.Potions;
 
-import java.io.IOException;
 import java.util.function.Supplier;
+
+import static manno.kuasoworld.KuasoWorld.KUASO_WORLD_TAB;
 
 
 /*创建一个物品需要哪几个步骤。答案是三步：创建自己的物品并继承原版的物品的类，实例化这个物品，最后把这个物品注册进游戏。*/
@@ -19,22 +16,13 @@ import java.util.function.Supplier;
 public class RawKuaso extends Item {
 
 
-    private static Supplier<MobEffectInstance> supplier;
-    private static Supplier<MobEffectInstance> supplier2;
-
-    static {
-        //效果类型|持续时间n*tick|效果等级(从0算起)
-        supplier = () -> new MobEffectInstance(MobEffects.HUNGER, 3 * 20, 0);
-        supplier2 = () -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 10 * 20, 0);
-    }
-
-    private static FoodProperties food = (new FoodProperties.Builder().saturationMod(1).
+    private static FoodProperties RAW_KUASO = (new FoodProperties.Builder().saturationMod(1).
             nutrition(3).
-            effect(supplier, 1).
-            effect(supplier2, 1).//这里追加effect叠加复数效果
+            effect(() -> new MobEffectInstance(MobEffects.HUNGER, 3 * 20, 0), 1).
+            effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 10 * 20, 0), 1).//这里追加effect叠加复数效果
                     build());
 
     public RawKuaso() {
-        super(new Properties().tab(CreativeModeTab.TAB_FOOD).food(food));//增加食物属性
+        super(new Properties().tab(KUASO_WORLD_TAB).food(RAW_KUASO));//增加食物属性
     }
 }
