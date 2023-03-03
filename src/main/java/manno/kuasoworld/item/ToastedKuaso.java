@@ -1,11 +1,11 @@
 package manno.kuasoworld.item;
 
 
+import manno.kuasoworld.common.registry.KuasoEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
-import manno.kuasoworld.common.registry.KuasoEffects;
 
 import static manno.kuasoworld.KuasoWorld.KUASO_WORLD_TAB;
 

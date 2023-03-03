@@ -3,10 +3,7 @@ package manno.kuasoworld.item;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-
-import java.util.function.Supplier;
 
 import static manno.kuasoworld.KuasoWorld.KUASO_WORLD_TAB;
 

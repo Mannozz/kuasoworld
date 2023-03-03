@@ -4,9 +4,9 @@ import manno.kuasoworld.KuasoWorld;
 import manno.kuasoworld.common.effect.FulFillEffect;
 import manno.kuasoworld.common.effect.SatiateEffect;
 import net.minecraft.world.effect.MobEffect;
-import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class KuasoEffects {
     public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, KuasoWorld.MODID);

@@ -1,16 +1,16 @@
 package manno.kuasoworld;
 
-import manno.kuasoworld.common.CommonSetup;
-import manno.kuasoworld.common.registry.ModBlocks;
-import manno.kuasoworld.common.registry.KuasoEffects;
-import manno.kuasoworld.common.registry.ModItems;
 import com.mojang.logging.LogUtils;
+import manno.kuasoworld.common.CommonSetup;
+import manno.kuasoworld.common.registry.KuasoEffects;
+import manno.kuasoworld.common.registry.ModBlocks;
+import manno.kuasoworld.common.registry.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
 
 import javax.annotation.Nonnull;
