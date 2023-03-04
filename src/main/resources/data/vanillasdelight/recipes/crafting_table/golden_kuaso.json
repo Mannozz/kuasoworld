@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "vanillasdelight:gold_ingot"
+    },
+    "Y": {
+      "item": "vanillasdelight:toasted_kuaso"
+    }
+  },
+  "result": {
+    "item": "vanillasdelight:golden_kuaso",
+    "count": 1
+  }
+}

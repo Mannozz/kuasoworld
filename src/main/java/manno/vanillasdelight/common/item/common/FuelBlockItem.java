@@ -1,4 +1,4 @@
-package manno.vanillasdelight.item.common;
+package manno.vanillasdelight.common.item.common;
 
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;

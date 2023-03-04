@@ -1,6 +1,6 @@
 package manno.vanillasdelight.common.registry;
 
-import manno.vanillasdelight.KuasoWorld;
+import manno.vanillasdelight.VanillasDelight;
 import manno.vanillasdelight.common.block.KuasoBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,7 +13,7 @@ import java.util.function.ToIntFunction;
 
 public class ModBlocks
 {
-	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, KuasoWorld.MODID);
+	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, VanillasDelight.MODID);
 
 	public static final RegistryObject<Block> KUASO_BLOCK = BLOCKS.register("kuaso_block", KuasoBlock::new);
 
