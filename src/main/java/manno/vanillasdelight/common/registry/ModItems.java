@@ -1,10 +1,10 @@
-package manno.kuasoworld.common.registry;
+package manno.vanillasdelight.common.registry;
 
-import manno.kuasoworld.KuasoWorld;
-import manno.kuasoworld.item.GoldenKuaso;
-import manno.kuasoworld.item.KuasoBlockItem;
-import manno.kuasoworld.item.RawKuaso;
-import manno.kuasoworld.item.ToastedKuaso;
+import manno.vanillasdelight.KuasoWorld;
+import manno.vanillasdelight.item.GoldenKuaso;
+import manno.vanillasdelight.item.KuasoBlockItem;
+import manno.vanillasdelight.item.RawKuaso;
+import manno.vanillasdelight.item.ToastedKuaso;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

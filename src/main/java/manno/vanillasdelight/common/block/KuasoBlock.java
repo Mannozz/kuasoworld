@@ -1,12 +1,8 @@
-package manno.kuasoworld.common.block;
+package manno.vanillasdelight.common.block;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import org.checkerframework.checker.units.qual.K;
-
-import java.util.Properties;
 
 public class KuasoBlock extends Block {
 

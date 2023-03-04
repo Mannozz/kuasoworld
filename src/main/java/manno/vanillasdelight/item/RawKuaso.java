@@ -1,11 +1,11 @@
-package manno.kuasoworld.item;
+package manno.vanillasdelight.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 
-import static manno.kuasoworld.KuasoWorld.KUASO_WORLD_TAB;
+import static manno.vanillasdelight.KuasoWorld.KUASO_WORLD_TAB;
 
 
 /*创建一个物品需要哪几个步骤。答案是三步：创建自己的物品并继承原版的物品的类，实例化这个物品，最后把这个物品注册进游戏。*/

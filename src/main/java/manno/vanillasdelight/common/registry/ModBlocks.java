@@ -1,7 +1,7 @@
-package manno.kuasoworld.common.registry;
+package manno.vanillasdelight.common.registry;
 
-import manno.kuasoworld.KuasoWorld;
-import manno.kuasoworld.common.block.KuasoBlock;
+import manno.vanillasdelight.KuasoWorld;
+import manno.vanillasdelight.common.block.KuasoBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;

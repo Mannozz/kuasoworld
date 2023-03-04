@@ -1,6 +1,6 @@
-package manno.kuasoworld.item;
+package manno.vanillasdelight.item;
 
-import manno.kuasoworld.item.common.FuelBlockItem;
+import manno.vanillasdelight.item.common.FuelBlockItem;
 import net.minecraft.world.level.block.Block;
 
 public class KuasoBlockItem extends FuelBlockItem {

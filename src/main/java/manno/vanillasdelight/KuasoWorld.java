@@ -1,10 +1,10 @@
-package manno.kuasoworld;
+package manno.vanillasdelight;
 
 import com.mojang.logging.LogUtils;
-import manno.kuasoworld.common.CommonSetup;
-import manno.kuasoworld.common.registry.KuasoEffects;
-import manno.kuasoworld.common.registry.ModBlocks;
-import manno.kuasoworld.common.registry.ModItems;
+import manno.vanillasdelight.common.CommonSetup;
+import manno.vanillasdelight.common.registry.KuasoEffects;
+import manno.vanillasdelight.common.registry.ModBlocks;
+import manno.vanillasdelight.common.registry.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,7 +19,7 @@ import javax.annotation.Nonnull;
 @Mod(KuasoWorld.MODID)
 public class KuasoWorld {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "kuasoworld";
+    public static final String MODID = "vanillasdelight";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 

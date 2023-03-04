@@ -1,13 +1,13 @@
-package manno.kuasoworld.item;
+package manno.vanillasdelight.item;
 
 
-import manno.kuasoworld.common.registry.KuasoEffects;
+import manno.vanillasdelight.common.registry.KuasoEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 
-import static manno.kuasoworld.KuasoWorld.KUASO_WORLD_TAB;
+import static manno.vanillasdelight.KuasoWorld.KUASO_WORLD_TAB;
 
 public class ToastedKuaso extends Item {
 

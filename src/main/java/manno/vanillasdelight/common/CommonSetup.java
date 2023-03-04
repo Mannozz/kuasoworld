@@ -1,4 +1,4 @@
-package manno.kuasoworld.common;
+package manno.vanillasdelight.common;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 

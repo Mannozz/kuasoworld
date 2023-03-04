@@ -1,4 +1,4 @@
-package manno.kuasoworld.item.common;
+package manno.vanillasdelight.item.common;
 
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
@@ -6,8 +6,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
-
-import net.minecraft.world.item.Item.Properties;
 
 public class FuelBlockItem extends BlockItem
 {

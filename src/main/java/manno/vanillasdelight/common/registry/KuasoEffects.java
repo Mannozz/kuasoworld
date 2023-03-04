@@ -1,8 +1,8 @@
-package manno.kuasoworld.common.registry;
+package manno.vanillasdelight.common.registry;
 
-import manno.kuasoworld.KuasoWorld;
-import manno.kuasoworld.common.effect.FulFillEffect;
-import manno.kuasoworld.common.effect.SatiateEffect;
+import manno.vanillasdelight.KuasoWorld;
+import manno.vanillasdelight.common.effect.FulFillEffect;
+import manno.vanillasdelight.common.effect.SatiateEffect;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
